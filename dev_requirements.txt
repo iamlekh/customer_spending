@@ -1,5 +1,6 @@
 pandas
 numpy
 scikit-learn
-
--e .
+requests
+beautifulsoup4
+#-e .

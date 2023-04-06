@@ -4,3 +4,4 @@ clean:
 	rm -rf .pytest_cache
 clog:
 	rm -rf **/*.log
+cl: clean clog
