@@ -2,23 +2,25 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v3.2.0
+    rev: v4.4.0
     hooks:
       - id: trailing-whitespace
       - id: end-of-file-fixer
       - id: check-yaml
       - id: check-ast
       - id: check-json
-  - repo: https://github.com/PyCQA/flake8
-    rev: 8f9b4931b9a28896fb43edccb23016a7540f5b82
-    hooks:
-      - id: flake8
   - repo: https://github.com/psf/black
-    rev: a552f7096a9f6e016c9bb1df1e0a77a17caeec1c
+    rev: 23.3.0
     hooks:
       - id: black
+  - repo: https://github.com/PyCQA/flake8
+    rev: 6.0.0
+    hooks:
+      - id: flake8
+        args:
+          - "--ignore=E501"
   - repo: https://github.com/codespell-project/codespell
-    rev: v1.16.0
+    rev: v2.2.4
     hooks:
       - id: codespell
         name: codespell
