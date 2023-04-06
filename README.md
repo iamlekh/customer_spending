@@ -1,3 +1,3 @@
-# customer_spending
+# customer spending
 
-predict customer purchasing scorez
+predict customer purchasing score.
