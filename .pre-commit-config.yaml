@@ -13,6 +13,10 @@ repos:
     rev: 8f9b4931b9a28896fb43edccb23016a7540f5b82
     hooks:
       - id: flake8
+  - repo: https://github.com/psf/black
+    rev: a552f7096a9f6e016c9bb1df1e0a77a17caeec1c
+    hooks:
+      - id: black
   - repo: https://github.com/codespell-project/codespell
     rev: v1.16.0
     hooks:
