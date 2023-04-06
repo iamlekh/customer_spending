@@ -1,7 +1,6 @@
+
 clean:
-    rm -rf __pycache__ .pytest_cache
-
-flake:
-    flake8 common.py tests.py
-
-check: flake test clean
+	rm -rf **/__pycache__
+	rm -rf .pytest_cache
+clog:
+	rm -rf **/*.log

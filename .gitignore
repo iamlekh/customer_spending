@@ -130,4 +130,4 @@ dmypy.json
 
 
 
-.pre-commit-config.yaml
+**/*.log
